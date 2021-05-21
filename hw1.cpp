@@ -8,8 +8,7 @@ int main()
     const int b = 9;
     const int c = 200;
     const int d = 7;
-    double cRes = (double) c/d;
-    double res = a*(b+cRes);
+    double res = a*(b+(double) c/d);
     
     cout << res << endl;
 
